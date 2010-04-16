@@ -1,0 +1,8 @@
+.dupes{:id => id}
+  .title=id.humanize.titleize
+  - if collection.length > 0
+    %table{ :summary => id.humanize.titleize }
+      %thead=render :partial => 'books_table_header'
+      %tbody=render :partial => 'books_table_row', :collection => collection 
+  - else
+    %p.no_dupes No duplicates found!

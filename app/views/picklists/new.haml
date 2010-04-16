@@ -1,0 +1,11 @@
+- content_for :page_header do
+  %h1 Upload a New Picklist
+
+= error_messages_for :picklist
+
+%p Note: the XLS parser is fragile. Please do not upload a picklist with more than (approximately) 1,000 rows, or things will probably not go well.
+
+- form_for(:picklist, :url => picklists_path, :html => {:multipart=>true}) do |f|
+  %label{ :for => 'picklist_uploaded_data' } XLS File:
+  = f.file_field :uploaded_data
+  = submit_tag 'Upload Picklist'

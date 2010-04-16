@@ -1,0 +1,15 @@
+- content_for :page_header do
+  %h1 
+    Showing Picklist #
+    = @picklist.id
+
+%p
+  %strong Filename: 
+  =h @picklist.filename
+%p
+  %strong Content Type: 
+  =h @picklist.content_type
+%p
+  %strong Size: 
+  =h @picklist.size
+  bytes

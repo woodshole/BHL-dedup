@@ -1,0 +1,7 @@
+- content_for :page_header do
+  %h1 
+    All Books in 
+    = @picklist.filename
+
+%p== #{link_to "Download", "#{picklist_url(@picklist)}.csv"} this picklist. 
+=render :partial => 'books_table', :locals => {:id => 'books', :collection => @books}

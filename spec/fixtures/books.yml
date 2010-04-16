@@ -1,0 +1,25 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+mbl_picklist_book_1:
+  oclc: '16980485'
+  internal_identifier: '0030100483616'
+  volume: 'v.2'
+  chronology: '1822'
+  call_number: 'QL845 Geoffroy Saint-Hilaire'
+  author: 'Geoffroy Saint-Hilaire, Etienne, 1772-1844.'
+  publisher_place: 'Paris,' 
+  publisher: 'J.B. BaillieÌre,' 
+  title: 'Philosophie anatomique ...'
+  picklist: mbl_picklist
+
+mbl_picklist_book_2:
+  oclc: '2825740'
+  internal_identifier: '0030100501300'
+  volume: 'v.3'
+  chronology: '1828'
+  call_number: 'QL715 Godman'
+  author: 'Godman, John D. (John Davidson), 1794-1830.' 
+  publisher_place: 'Philadelphia,' 
+  publisher: 'H.C. Carey & I. Lea,' 
+  title: 'American natural history. Part 1.--Mastology.' 
+  picklist: mbl_picklist

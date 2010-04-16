@@ -1,0 +1,16 @@
+%tr
+  -if @preloaded_picklist
+    %td.special=h books_table_row.picklist.institution.name rescue ''
+    %td.special=link_to books_table_row.picklist.id.to_s, picklist_path(books_table_row.picklist)
+  -unless @preloaded_picklist
+    %td= link_to books_table_row.id.to_s, picklist_book_path(@picklist, books_table_row)
+  %td=h books_table_row.internal_identifier
+  %td=h books_table_row.oclc
+  %td=h books_table_row.title
+  %td=h books_table_row.author
+  %td=h books_table_row.volume
+  %td=h books_table_row.chronology
+  %td=h books_table_row.call_number
+  %td=h books_table_row.publisher
+  %td=h books_table_row.publisher_place
+  %td=button_to "x", "/picklists/#{@picklist.id}/books/#{books_table_row.id}", :confirm => "Are you sure you want to delete #{books_table_row.title}?\n\nTHIS CANNOT BE UNDONE.", :method => :delete

@@ -1,0 +1,19 @@
+- content_for :page_header do
+  %h1 
+    Picklists for
+    = current_institution.name
+    
+= link_to "Upload a new Picklist", new_picklist_path
+    
+%table{ :summary => "A list of picklists for each institution sorted by upload date" }
+  %caption Picklists
+  %thead
+    %th Filename
+    %th View Duplicates
+    %th Show Picklist
+    %th Upload Date
+    %th Delete
+  %tbody
+    = render :partial => "picklists_row", :collection => @picklists
+%br
+= link_to "Upload a new Picklist", new_picklist_path

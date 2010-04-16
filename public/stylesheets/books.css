@@ -1,0 +1,93 @@
+/* @override 
+	http://localhost:3000/stylesheets/dupes.css?1194979737
+	http://localhost:3000/stylesheets/dupes.css?1194981770
+	http://localhost:3000/stylesheets/books.css?1195239092
+*/
+
+.dupes {
+	padding: 1.5em;
+	padding-top: 0;
+}
+
+.dupes .title {
+	text-align: center;
+	font-size: 1em;
+	line-height: 1.5em;	
+}
+
+.no_dupes {
+	margin: 0;
+	padding: 1em 0;
+}
+
+#duplicates_by_oclc_and_volume {
+	background-color: #ffbaba;
+}
+
+#duplicates_by_oclc_and_volume td, #duplicates_by_oclc_and_volume th {
+	background-color: #ffe5e5;
+	border-color: #d25e5e;
+}
+
+
+#duplicates_by_oclc_and_volume .special {
+	background-color: #e5e8ff;
+	border-color: #5e6bd1;
+}
+
+#duplicates_by_oclc_only {
+	background-color: #ffd3d3;
+}
+
+#duplicates_by_oclc_only td, #duplicates_by_oclc_only th {
+	background-color: #ffebeb;
+	border-color: #ed8787;
+}
+
+#duplicates_by_oclc_only .special {
+	background-color: #eaecff;
+	border-color: #8793ed;
+}
+
+
+#duplicates_by_title_and_author {
+	background-color: #ffe5e5;
+}
+
+#duplicates_by_title_and_author td, #duplicates_by_title_and_author th {
+	background-color: #fff1f1;
+	border-color: #f49e9e;
+}
+
+#duplicates_by_title_and_author .special {
+	background-color: #f2f3ff;
+	border-color: #9fa9f4;
+}
+
+#duplicates_by_title_and_chronology {
+	background-color: #fff2f2;
+}
+
+#duplicates_by_title_and_chronology td, #duplicates_by_title_and_chronology th {
+	background-color: #fff7f7;
+	border-color: #f4abab;
+}
+
+#duplicates_by_title_and_chronology .special {
+	background-color: #f7f8ff;
+	border-color: #abb3f4;
+}
+
+#duplicates_by_title {
+	background-color: #fff9f9;
+}
+
+#duplicates_by_title td, #duplicates_by_title th {
+	background-color: #fffcfc;
+	border-color: #f4baba;
+}
+
+#duplicates_by_title .special {
+	background-color: #fcfcff;
+	border-color: #bac0f4;
+}

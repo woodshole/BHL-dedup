@@ -1,0 +1,45 @@
+/* @override 
+	http://localhost:3000/stylesheets/picklists.css?1194543060
+	http://localhost:3000/stylesheets/picklists.css?1194544168
+	http://localhost:3000/stylesheets/picklists.css?1194544347
+*/
+
+#preview {
+	background-color: #e8f3ff;
+	border: 1px solid #c5d6e8;
+	padding: 1em;	
+	padding-top: 0em;
+}
+
+table#col_definitions {
+	background-color: #fff;
+}
+
+caption .filename {
+	font-family: monospace;
+}
+
+table#col_definitions {
+	border-color: #e9ccc6;
+}
+
+tr.col_header td {
+	background-color: #ffebe7;
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+label.header_row {
+	background-color: #ffebe7;
+}
+
+table#col_definitions tr td.col0 {
+	border-left-color: #b5b5b5;
+}
+
+table#col_definitions tr td.gutter {
+	background-color: #dbdbdb;
+	border: 1px solid #b5b5b5;
+	font-family: monospace;
+	text-align: center;
+}

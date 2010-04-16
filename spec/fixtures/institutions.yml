@@ -1,0 +1,6 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+mbl:
+  name: MBL
+
+amhn:
+  name: American Museum of Natural History

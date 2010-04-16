@@ -1,0 +1,7 @@
+- content_for :page_header do
+  %h1 Choose Your Institution
+  
+- form_tag session_path do
+  %label{ :for => 'institution'} Institution:
+  = select_tag :institution, options_from_collection_for_select(@institutions, :id, :name)
+  = submit_tag 'Log In'

@@ -1,0 +1,105 @@
+/* @override 
+	http://localhost:3000/stylesheets/application.css?1194630419
+	http://localhost:3000/stylesheets/application.css?1194976083
+*/
+
+html {
+	font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
+}
+
+.flash {
+	padding: 0.5em;
+	padding-top: 0.45em;
+	margin-bottom: 1em;
+}
+
+.flash.notice {
+	border: 1px solid #fdef04;
+	color: orange;
+	background-color: #ffffe1;
+}
+
+table {
+	border-collapse: collapse;
+	font-size: 0.7em;
+	line-height: 1.3em;
+}
+
+caption {
+	font-size: 1.2em;
+	line-height: 1.5em;
+}
+
+tr, td, th  {
+	margin: 0;
+	padding: 0;
+}
+
+td, th {
+	padding: 5px 5px 3px;
+	border: 1px solid #000;
+}
+
+#login_information {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	text-align: right;
+	font-size: 0.7em;
+}
+
+.fieldWithErrors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+.errorExplanation {
+  width: 400px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+.errorExplanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  background-color: #c00;
+  color: #fff;
+}
+
+.errorExplanation p {
+  color: #333;
+  margin-bottom: 0;
+  padding: 5px;
+}
+
+.errorExplanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+
+div.uploadStatus {
+  margin: 5px;
+}
+
+div.progressBar {
+  margin: 5px;
+}
+
+div.progressBar div.border {
+  background-color: #fff;
+  border: 1px solid grey;
+  width: 100%;
+}
+
+div.progressBar div.background {
+  background-color: #333;
+  height: 18px;
+  width: 0%;
+}

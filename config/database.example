@@ -1,0 +1,17 @@
+login: &login
+  adapter: mysql
+  username: root
+  password:
+  host: localhost
+
+development:
+  <<: *login
+  database: dedup
+
+test:
+  <<: *login
+  database: dedup_test
+
+production:
+  <<: *login
+  database: dedup

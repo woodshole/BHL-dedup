@@ -1,0 +1,9 @@
+=render :partial => 'books_table', :locals => {:id => 'duplicates_by_oclc_and_volume', :collection => @oclc_and_volume_dupes}
+
+=render :partial => 'books_table', :locals => {:id => 'duplicates_by_oclc_only', :collection => @oclc_dupes}
+
+=render :partial => 'books_table', :locals => {:id => 'duplicates_by_title_and_author', :collection => @title_and_author_dupes}
+
+=render :partial => 'books_table', :locals => {:id => 'duplicates_by_title_and_chronology', :collection => @title_and_chronology_dupes}
+
+=render :partial => 'books_table', :locals => {:id => 'duplicates_by_title', :collection => @title_dupes}

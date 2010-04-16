@@ -1,0 +1,6 @@
+- content_for :page_header do
+  %h1 
+    Dupes for 
+    =h truncate(@book.title, 70)
+
+=render :partial => 'dupes_tables'
